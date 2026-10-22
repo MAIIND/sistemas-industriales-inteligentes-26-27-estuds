@@ -39,11 +39,9 @@ Si no está instalado, descárgalo de **https://www.python.org/downloads/** e in
 
 ## Paso 1 — Crear la carpeta del curso
 
-Clona los materiales siguiendo la [guía de Git y GitHub](guia_git_github_alumnado.md).
-La carpeta creada se llama `sistemas-industriales-inteligentes-26-27-estuds`.
-En esta guía, `SII` es una abreviatura para la carpeta del curso: sustituye ese
-nombre en las rutas por el de tu carpeta real. Si ya la tienes preparada, utiliza
-la misma. Los cuadernos van dentro de su semana y los datos en `datasets/`:
+Clona los materiales en la carpeta `SII` siguiendo la
+[guía de Git y GitHub](guia_git_github_alumnado.md). Si ya la tienes preparada,
+utiliza la misma. Los cuadernos van dentro de su semana y los datos en `datasets/`:
 
 ```
 SII/

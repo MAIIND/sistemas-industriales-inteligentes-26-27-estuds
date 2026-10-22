@@ -27,16 +27,16 @@ cuenta de GitHub ni autenticarte**.
 Sitúa la terminal en la carpeta donde guardarás el curso y ejecuta:
 
 ```bash
-git clone https://github.com/MAIIND/sistemas-industriales-inteligentes-26-27-estuds.git
+git clone https://github.com/MAIIND/sistemas-industriales-inteligentes-26-27-estuds.git SII
 ```
 
-Se crea una carpeta llamada `sistemas-industriales-inteligentes-26-27-estuds`.
-Si ya existe otra con ese nombre y trabajo previo, elige otra ubicación y conserva
-tus archivos.
+Se crea la carpeta del curso, `SII`, con los materiales. Clona antes de descargar
+los datos: Git no clona en una carpeta `SII` que ya tenga contenido. Si ya existe,
+elige otra ubicación y conserva tus archivos.
 
 ## 3. Recibe nuevas semanas y correcciones
 
-Abre una terminal dentro de `sistemas-industriales-inteligentes-26-27-estuds` y ejecuta:
+Abre una terminal dentro de `SII` y ejecuta:
 
 ```bash
 git pull --ff-only
