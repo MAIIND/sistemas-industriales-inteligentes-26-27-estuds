@@ -30,7 +30,7 @@ Conserva tu cuaderno con las secciones 1–4 ejecutadas y el CSV
 tiene 112 filas y 13 columnas, sílice media aproximada de 2,65 % y 38 horas con
 `silice > 3.0`. El 3 % es un umbral didáctico.
 
-Sube el cuaderno a tu repositorio personal siguiendo la guía Git. Si has usado
+Conserva tu copia del cuaderno. Si has usado
 Colab, consulta [cómo conservar y descargar el trabajo](../docs/entorno_colab_guia.md).
 Sigue las instrucciones del profesor sobre cualquier entrega en el Campus.
 S1 no tiene enunciado de tarea separado, presentación del alumnado ni defensa oral.

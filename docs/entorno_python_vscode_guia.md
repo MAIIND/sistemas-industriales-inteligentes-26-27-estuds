@@ -39,11 +39,11 @@ Si no está instalado, descárgalo de **https://www.python.org/downloads/** e in
 
 ## Paso 1 — Crear la carpeta del curso
 
-Obtén la carpeta `SII` siguiendo la [guía de Git y GitHub](guia_git_github_alumnado.md):
-clona el repositorio de materiales del profesor y conecta tu repositorio personal.
-Si ya has completado ese paso, utiliza esa misma carpeta. Dentro, los cuadernos
-de cada semana van en su subcarpeta (`semana-01`, `semana-02`…) y los datos en una
-subcarpeta común `datasets`:
+Clona los materiales siguiendo la [guía de Git y GitHub](guia_git_github_alumnado.md).
+La carpeta creada se llama `sistemas-industriales-inteligentes-26-27-estuds`.
+En esta guía, `SII` es una abreviatura para la carpeta del curso: sustituye ese
+nombre en las rutas por el de tu carpeta real. Si ya la tienes preparada, utiliza
+la misma. Los cuadernos van dentro de su semana y los datos en `datasets/`:
 
 ```
 SII/
@@ -60,13 +60,13 @@ Puedes preparar los datos de todo el curso descargando los recursos disponibles 
 [la carpeta de Google Drive](https://drive.google.com/drive/folders/1UVhDdCW6bLvXU8L0BaK7CulrtUaVzeT-?usp=sharing).
 Copia su contenido directamente en `SII/datasets/`, conservando los nombres de los
 archivos y las subcarpetas. Para la práctica de S1 basta `dataset_flotacion_mini.csv`,
-que debes descargar por separado y guardar en esa carpeta. El repositorio de
-[materiales del alumnado](https://github.com/MAIIND/sistemas-industriales-inteligentes-26-27-estuds)
-contiene `semana-01/` y `docs/`; las nuevas semanas se incorporan con `git pull`.
+que debes descargar por separado y guardar en esa carpeta.
 No necesitas esperar a que terminen todas las descargas de datos para empezar.
-El inventario disponible para estudiantes está en `datasets/README.txt`.
 
-**Respeta esta estructura y los nombres de las carpetas.** Los cuadernos buscan los datos con rutas como `../datasets/dataset_flotacion_mini.csv` ("sube un nivel desde la carpeta de la semana y entra en `datasets`"). Si pones el CSV junto al cuaderno, verás un `FileNotFoundError`. Si descargas el repositorio completo del curso, ya viene con esta estructura.
+Las nuevas semanas y correcciones se descargan siguiendo la guía Git. Organiza
+tus archivos de trabajo como prefieras y conserva las rutas necesarias para ejecutar.
+
+**Respeta esta estructura y los nombres de las carpetas.** Los cuadernos buscan los datos con rutas como `../datasets/dataset_flotacion_mini.csv` ("sube un nivel desde la carpeta de la semana y entra en `datasets`"). Si pones el CSV junto al cuaderno, verás un `FileNotFoundError`. El repositorio de materiales conserva esta estructura.
 
 Desde la terminal, sitúate dentro de la carpeta `SII`:
 

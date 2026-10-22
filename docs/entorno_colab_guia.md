@@ -71,11 +71,11 @@ files.download(str(salida))
 
 El navegador descargará `flotacion_horaria_mini.csv`. Consérvalo junto con tu copia del cuaderno; sigue las instrucciones del docente sobre qué archivo entregar. Comprueba que la copia del cuaderno aparece en tu Google Drive antes de cerrar la pestaña.
 
-Para subir tus avances al repositorio personal, descarga también el cuaderno desde
-**Archivo → Descargar → Descargar .ipynb**. Si preparaste el clon local `SII`, copia
-el cuaderno a `SII/semana-01/Semana1_ALUMNO.ipynb` y sigue el apartado de guardado,
-commit y push de la [guía de Git](guia_git_github_alumnado.md). Guardarlo en Google
-Drive y subirlo a GitHub son operaciones distintas.
+Para entregar, descarga también tu copia del cuaderno desde
+**Archivo → Descargar → Descargar .ipynb** y súbela al Campus Virtual junto con
+los archivos que pida el enunciado. Guardarla en Drive no realiza la entrega.
+Si además la conservas en tu ordenador, organiza tus archivos como prefieras;
+mantén las rutas de datos necesarias si vuelves a ejecutarla localmente.
 
 ## Si vuelves otro día
 

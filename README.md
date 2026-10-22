@@ -7,8 +7,7 @@ Las semanas se publican progresivamente en este repositorio.
 ## Empezar
 
 1. Sigue la [guía de Git y GitHub](docs/guia_git_github_alumnado.md) para clonar los
-   materiales en `SII`, conectar tu repositorio personal privado e invitar al
-   profesor mediante **amlopez@uniovi.es**.
+   materiales en tu equipo y recibir las nuevas semanas y correcciones.
 2. Prepara [Python y VS Code](docs/entorno_python_vscode_guia.md). Usa la instalación
    básica para S1 o las versiones del curso en `docs/requirements.txt`.
 3. Consulta [los datos de S1](datasets/README.txt) y descarga
@@ -27,15 +26,15 @@ Si una incidencia impide trabajar en local, utiliza la [guía de Colab](docs/ent
 
 ## Trabajo y actualizaciones
 
-Con los dos remotos configurados según la guía, `git pull` recibe los nuevos
-materiales del profesor y `git push` sube tus avances a tu repositorio personal.
-Guarda tus cambios en commits antes de actualizar. El profesor debe aceptar tu
-invitación para revisar el repositorio privado.
+Desde `SII`, `git pull --ff-only` recibe los nuevos materiales del profesor.
+Cada estudiante gestiona sus archivos locales y su versionado como prefiera.
+Revisa los materiales actualizados y ten en cuenta las correcciones del profesor
+en tu trabajo.
 
 Conserva las carpetas `semana-01/`, `docs/` y `datasets/` al mismo nivel. Los
 cuadernos cargan los datos desde su semana mediante rutas `../datasets/`.
-Las instrucciones de entrega y las calificaciones se comunican por el Campus
-Virtual. S1 es nivelación: no tiene presentación del alumnado ni defensa oral.
+Entrega los archivos solicitados en el Campus Virtual, donde también se publican
+las calificaciones. S1 es nivelación: no tiene presentación del alumnado ni defensa oral.
 
 ## Evaluación y licencia
 
