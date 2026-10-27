@@ -23,6 +23,7 @@ Si una incidencia impide trabajar en local, utiliza la [guía de Colab](docs/ent
 | [Presentación general](presentacion-curso/curso.pdf) | Estructura, evaluación, caso industrial y recorrido técnico de consulta |
 | [Semana 1](semana-01/README.md) | Herramientas, datos del proyecto y práctica guiada |
 | [Semana 2: diapositivas de regresión lineal](<semana-02/Semana2_Conceptos Basicos de Aprendizaje Supervisado (Regresion Lineal).pdf>) | Conceptos básicos de aprendizaje supervisado |
+| [Semana 2: cuaderno de prácticas](semana-02/Semana2_ALUMNO.ipynb) | Regresión, descenso de gradiente, validación y regularización con datos sintéticos |
 | [Descripción del proceso y dataset](docs/descripcion_dataset_flotacion.md) | Referencia para interpretar las variables |
 
 ## Trabajo y actualizaciones
