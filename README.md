@@ -24,7 +24,8 @@ Si una incidencia impide trabajar en local, utiliza la [guía de Colab](docs/ent
 | [Semana 1](semana-01/README.md) | Herramientas, datos del proyecto y práctica guiada |
 | [Semana 2: diapositivas de regresión lineal](<semana-02/Semana2_Conceptos Basicos de Aprendizaje Supervisado (Regresion Lineal).pdf>) | Conceptos básicos de aprendizaje supervisado |
 | [Semana 2: Python mínimo](semana-02/Semana2_Python_minimo.ipynb) | numpy, matplotlib y el patrón `fit`/`predict` de scikit-learn, antes del cuaderno de prácticas |
-| [Semana 2: cuaderno de prácticas](semana-02/Semana2_ALUMNO.ipynb) | Regresión, descenso de gradiente, validación y regularización con datos sintéticos |
+| [Semana 2: cuaderno de prácticas](semana-02/Semana2_ALUMNO_v2.ipynb) | Regresión, descenso de gradiente, validación y regularización con datos sintéticos. La v2 solo actualiza la cabecera y el puente al proyecto |
+| [Semana 2: proyecto ancla](semana-02/Semana2_ANCLA_ALUMNO_v2.ipynb) | Tarea semanal (secciones 2 y 3) y parte de la semana 2 del proyecto final (sección 4), sobre el dato semisintético |
 | [Descripción del proceso y dataset](docs/descripcion_dataset_flotacion.md) | Referencia para interpretar las variables |
 
 ## Trabajo y actualizaciones

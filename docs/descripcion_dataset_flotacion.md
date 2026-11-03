@@ -56,3 +56,14 @@ Como en una hora caben 180 medidas de 20 segundos (3600 / 20 = 180), verás que 
 La idea que recorre todo el curso es construir un **"sensor virtual"**: como el resultado de laboratorio tarda una hora en llegar, queremos **estimar el % de sílice al momento** a partir de las variables rápidas de proceso. Así el operador podría corregir la marcha de la planta sin esperar al laboratorio.
 
 En la **Semana 1** empezaremos por lo básico: cargar estos datos, entenderlos, y resumir las 180 medidas de cada hora en una tabla ordenada y manejable con la que trabajaremos después. No hace falta saber química ni tener experiencia previa con datos: iremos paso a paso.
+
+## Desde la Semana 2: versión semisintética
+
+En la Semana 1 trabajarás con los datos reales tal cual. A partir de la **Semana 2** usaremos una versión **semisintética** del mismo dataset:
+
+- Las **variables de proceso** (alimentación, reactivos, caudal, pH, densidad, aire y nivel de cada columna) son **las reales**: mismas horas, mismos valores y los mismos huecos de registros.
+- La **sílice del concentrado** (y con ella el indicador «fuera de especificación» y el hierro del concentrado) se ha **simulado** con un modelo del proceso que no se publica.
+
+¿Por qué? Porque nos permite aplicar mejor los conceptos del curso: sabemos que hay una relación entre el proceso y la calidad que se puede aprender, así que podrás ver con claridad qué aporta cada técnica y comprobar qué métodos capturan mejor esa relación. Tu trabajo es el mismo que con datos reales: descubrir esa relación a partir de los datos, sin conocer el modelo que los generó.
+
+Los ficheros semisintéticos tienen el mismo formato que los reales: `flotacion_semisintetica_horaria.csv` (tabla horaria), `flotacion_semisintetica_horaria_enriquecida.csv` (con cada columna de flotación por separado) y `flotacion_semisintetica_20s.csv` (registro completo a 20 s).
